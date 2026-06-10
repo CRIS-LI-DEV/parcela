@@ -10,10 +10,7 @@ class LecturaViewSet(viewsets.ModelViewSet):
     serializer_class = LecturaSerializer
 
     def get_queryset(self):
-        """
-        Filtra las lecturas dinámicamente si se pasa el parámetro 'sensor' en la URL.
-        Ejemplo: /api/lecturas/?sensor=3
-        """
+ 
         queryset = Lectura.objects.all()
         sensor_id = self.request.query_params.get('sensor')
         
