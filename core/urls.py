@@ -7,7 +7,7 @@ from api.views import SensorViewSet, LecturaViewSet
 
 router = DefaultRouter()
 router.register(r'sensores', SensorViewSet)
-router.register(r'lecturas', LecturaViewSet)
+router.register(r'lecturas', LecturaViewSet, basename='lectura')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
