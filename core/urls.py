@@ -6,7 +6,7 @@ from api.views import SensorViewSet, LecturaViewSet,CargaMasivaLecturasView
 
 
 router = DefaultRouter()
-router.register(r'sensores', SensorViewSet)
+router.register(r'sensores', SensorViewSet) 
 router.register(r'lecturas', LecturaViewSet, basename='lectura')
 
 urlpatterns = [
