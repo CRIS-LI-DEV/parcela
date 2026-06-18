@@ -122,6 +122,6 @@ CORS_ALLOWED_ORIGINS = [
     "https://parcela-production.up.railway.app",
     ]
 
-ALLOWED_HOSTS = ['*', "parcela-production.up.railway.app/sensores"]
+ALLOWED_HOSTS = ['*']
 
 CORS_ALLOW_ALL_ORIGINS = True
