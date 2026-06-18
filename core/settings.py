@@ -117,6 +117,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-ALLOWED_HOSTS = ['*', "parcela-production.up.railway.app"]
+ALLOWED_HOSTS = ['*', "parcela-production.up.railway.app/sensores"]
 
 CORS_ALLOW_ALL_ORIGINS = True
